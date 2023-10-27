@@ -15,7 +15,7 @@
   <mp:PhoneIdentity PhoneProductId="3a9711dd-6edd-4081-99d4-43add227d729" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
-    <DisplayName>u</DisplayName>
+    <DisplayName>Spotted</DisplayName>
     <PublisherDisplayName>peter</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
@@ -34,8 +34,8 @@
       Executable="$targetnametoken$.exe"
       EntryPoint="$targetentrypoint$">
       <uap:VisualElements
-        DisplayName="u"
-        Description="u"
+        DisplayName="ms-resource:AppDisplayName"
+        Description="a watermark app"
         BackgroundColor="transparent"
         Square150x150Logo="Assets\Square150x150Logo.png"
         Square44x44Logo="Assets\Square44x44Logo.png">
