@@ -108,6 +108,22 @@
     <Manifest Include="app.manifest" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AboutPage.xaml.h">
+      <DependentUpon>AboutPage.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </ClInclude>
+    <ClInclude Include="ApplicationPage.xaml.h">
+      <DependentUpon>ApplicationPage.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </ClInclude>
+    <ClInclude Include="DesktopPage.xaml.h">
+      <DependentUpon>DesktopPage.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </ClInclude>
+    <ClInclude Include="HelpPage.xaml.h">
+      <DependentUpon>HelpPage.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </ClInclude>
     <ClInclude Include="pch.h" />
     <ClInclude Include="App.xaml.h">
       <DependentUpon>App.xaml</DependentUpon>
@@ -115,12 +131,61 @@
     <ClInclude Include="MainWindow.xaml.h">
       <DependentUpon>MainWindow.xaml</DependentUpon>
     </ClInclude>
+    <ClInclude Include="PrinterPage.xaml.h">
+      <DependentUpon>PrinterPage.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </ClInclude>
+    <ClInclude Include="ScreenPage.xaml.h">
+      <DependentUpon>ScreenPage.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </ClInclude>
+    <ClInclude Include="SettingPage.xaml.h">
+      <DependentUpon>SettingPage.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml" />
+    <Page Include="AboutPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ApplicationPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="DesktopPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="HelpPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="MainWindow.xaml" />
+    <Page Include="PrinterPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ScreenPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SettingPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="AboutPage.xaml.cpp">
+      <DependentUpon>AboutPage.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </ClCompile>
+    <ClCompile Include="ApplicationPage.xaml.cpp">
+      <DependentUpon>ApplicationPage.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </ClCompile>
+    <ClCompile Include="DesktopPage.xaml.cpp">
+      <DependentUpon>DesktopPage.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </ClCompile>
+    <ClCompile Include="HelpPage.xaml.cpp">
+      <DependentUpon>HelpPage.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </ClCompile>
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader>Create</PrecompiledHeader>
     </ClCompile>
@@ -131,15 +196,55 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
     </ClCompile>
     <ClCompile Include="$(GeneratedFilesDir)module.g.cpp" />
+    <ClCompile Include="PrinterPage.xaml.cpp">
+      <DependentUpon>PrinterPage.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </ClCompile>
+    <ClCompile Include="ScreenPage.xaml.cpp">
+      <DependentUpon>ScreenPage.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </ClCompile>
+    <ClCompile Include="SettingPage.xaml.cpp">
+      <DependentUpon>SettingPage.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <Midl Include="AboutPage.idl">
+      <DependentUpon>AboutPage.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Midl>
     <Midl Include="App.idl">
       <SubType>Code</SubType>
       <DependentUpon>App.xaml</DependentUpon>
     </Midl>
+    <Midl Include="ApplicationPage.idl">
+      <DependentUpon>ApplicationPage.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Midl>
+    <Midl Include="DesktopPage.idl">
+      <DependentUpon>DesktopPage.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Midl>
+    <Midl Include="HelpPage.idl">
+      <DependentUpon>HelpPage.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Midl>
     <Midl Include="MainWindow.idl">
       <SubType>Code</SubType>
       <DependentUpon>MainWindow.xaml</DependentUpon>
+    </Midl>
+    <Midl Include="PrinterPage.idl">
+      <DependentUpon>PrinterPage.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Midl>
+    <Midl Include="ScreenPage.idl">
+      <DependentUpon>ScreenPage.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Midl>
+    <Midl Include="SettingPage.idl">
+      <DependentUpon>SettingPage.xaml</DependentUpon>
+      <SubType>Code</SubType>
     </Midl>
   </ItemGroup>
   <ItemGroup>

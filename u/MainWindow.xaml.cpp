@@ -21,8 +21,5 @@ namespace winrt::u::implementation
 	MainWindow::MainWindow()
 	{
 		InitializeComponent();
-		auto resourceLoader = ResourceLoader();
-		winrt::hstring t = resourceLoader.GetString(L"AppDisplayName");
-		Title(t);
 	}
 }

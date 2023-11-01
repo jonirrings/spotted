@@ -1,0 +1,12 @@
+// Copyright (c) Microsoft Corporation and Contributors.
+// Licensed under the MIT License.
+
+namespace u
+{
+    [default_interface]
+    runtimeclass HelpPage : Microsoft.UI.Xaml.Controls.Page
+    {
+        HelpPage();
+        Int32 MyProperty;
+    }
+}

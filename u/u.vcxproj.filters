@@ -5,6 +5,27 @@
   </ItemGroup>
   <ItemGroup>
     <Page Include="MainWindow.xaml" />
+    <Page Include="ApplicationPage.xaml">
+      <Filter>Pages</Filter>
+    </Page>
+    <Page Include="DesktopPage.xaml">
+      <Filter>Pages</Filter>
+    </Page>
+    <Page Include="HelpPage.xaml">
+      <Filter>Pages</Filter>
+    </Page>
+    <Page Include="PrinterPage.xaml">
+      <Filter>Pages</Filter>
+    </Page>
+    <Page Include="ScreenPage.xaml">
+      <Filter>Pages</Filter>
+    </Page>
+    <Page Include="SettingPage.xaml">
+      <Filter>Pages</Filter>
+    </Page>
+    <Page Include="AboutPage.xaml">
+      <Filter>Pages</Filter>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Midl Include="App.idl" />
@@ -52,6 +73,9 @@
     </Filter>
     <Filter Include="Strings\zh-CN">
       <UniqueIdentifier>{7a322b2c-ab0c-4e11-812b-d900a54a4018}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pages">
+      <UniqueIdentifier>{ac585aa0-ea4c-488f-b2c6-02bba80d822d}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

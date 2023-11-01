@@ -8,7 +8,10 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <NavigationView x:Name="NaviView">
+    <NavigationView x:Name="NaviView"
+                    Header="This is header"
+                    PaneTitle="Spotted"
+                    PaneDisplayMode="Auto">
         <NavigationView.MenuItems>
             <NavigationViewItem Content="Application" Icon="AllApps"/>
             <NavigationViewItem Content="Desktop" Icon="FullScreen"/>
@@ -19,6 +22,8 @@
             <NavigationViewItem Content="Help" Icon="Help" />
             <NavigationViewItem Content="About" Icon="ContactInfo" />
         </NavigationView.FooterMenuItems>
-        <Frame x:Name="RootFrame"/>
+        <Frame x:Name="ContentFrame">
+            <TextBlock Text="This is content"/>
+        </Frame>
     </NavigationView>
 </Window>
